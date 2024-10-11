@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-mongo
+  data:
+    mongodb:
+      username: me
+      password: secret
+      host: localhost
+      port: 27017
+      database: demodb
+      authentication-database: admin
